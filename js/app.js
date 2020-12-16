@@ -31,3 +31,20 @@ const quotes = [
 ];
 
 // tu código aquí
+
+let button = document.querySelector('#generate-btn')
+
+// Otra manera más moderna de definir una función anónima!
+// Pero al fin y al cabo, es una función
+button.onclick = () => {
+    // Función en js/utils.js
+    let quote = getRandomValueFromArray(quotes)
+
+    let quoteContainer = document.querySelector('#quote')
+    
+    // Atención! quote.quote. El primer 'quote' es un objeto, que tiene dos propiedades 'quote' y 'author'. Si queremos acceder a la primera propiedad, debemos usar el ".". 
+    quoteContainer.textContent = quote.quote
+
+    let authorContainer = document.querySelector('span.quote-author')
+    authorContainer.textContent = quote.author
+}

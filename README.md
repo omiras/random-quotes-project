@@ -3,11 +3,13 @@ Queremos que, al hacer clic en el botón "Generate Quote", genere una cita de fo
 
 ## Pasos a seguir
 
+0. Renombra el fichero __js/app.js__.  
 1. Intenta primero simplemente recuperar el elemento del DOM al que debes aplicar el evento __click__
 2. Comprueba que eres capaz de aplicarlo, haciendo una prueba simple, como por ejemplo, que al hacer clic, muestre un mensaje por la consola.
 3. Después, haz que al hacer clic en el botón, muestre por consola el **texto** de la primera cita del array de objetos **quotes**
 4. Piensa en como separar cada una de las metas que quieres conseguir. Por ejemplo, usa al menos **dos funciones**. Una para obtener un elemento del array de citas de forma aleatoria, y otra función que se va a encargar de gestionar el evento __click__
 
+Finalmente, en __js/solution_provided__ tienes una solución del autor original.
 
 ## Restricciones
 
